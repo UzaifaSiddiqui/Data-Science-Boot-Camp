@@ -15,18 +15,20 @@ This Directory Contain 5 files.
 
 3- Model File have the best performing Model and it was Fitted on Main.csv DATASET (which is typically same credit_loan dataset but is preprocessed).
 
-4- Futher Model.pynb aslo generates a pickle for fitted model and then it gets passed to Gradio.
+4- Futher Model.pynb aslo generates a pickle file for fitted model and then it gets passed to Gradio.
 
-5- Gradio is a python library for deployment of ML models .
+5- The purpose of pickle file is not having to fit the model every time a code and that model can be directly accessed by through that pickle file
 
-6- When the last cell is run on Model.pynb it prints two things FIRST A LINK and SECOND the UI of MODEL .
+6- Gradio is a python library for deployment of ML models .
 
-7- Model can be accessed there as it is 
+7- When the last cell is run on Model.pynb it prints two things FIRST A LINK and SECOND the UI of MODEL .
 
-  8- But a better OPTION is to click on the link which will open a live hosting of that FITTED MODEL.
+8- Model can be accessed there as it is 
+
+9- But a better OPTION is to click on the link which will open a live hosting of that FITTED MODEL.
   
   
-  This is a 1 set of value to make prediction on the model and AFTER entering these values model should return 'You Are Not Eligible For Loan' 
+- This is a 1 set of value to make prediction on the model and AFTER entering these values model should return 'You Are Not Eligible For Loan' 
   [[24.0,
     82000.0,
     1.0,
